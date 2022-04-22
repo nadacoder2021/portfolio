@@ -1,25 +1,12 @@
-import React, {useState, useRef} from 'react';
+import React, {useState} from 'react';
 import {RiMenu3Line, RiCloseLine} from "react-icons/ri"
 import "./Navbar.css"
-import logo from "../../assets/logo.png"
-import { Link, animateScroll as scroll } from "react-scroll";
+
+import { Link} from "react-scroll";
 //BEM Block element modifier
 
 
 
-
-
-
-const Menu = () => (
-<>
-<p><a href="#home">Home</a></p>
-                <p><a href="/about">About Me</a></p>
-                <p><a href="#hpossibility">My Projects</a></p>
-                <p><a href="#possibility">Contact Me</a></p>
-                <p><a href="#features">Features</a></p>
-                <p><a href="#blog">My Blog</a></p>
-                </>
-)
 
 
 

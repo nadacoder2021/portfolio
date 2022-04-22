@@ -1,7 +1,7 @@
-import React, { useRef , forwardRef} from "react";
+import React from "react";
 import "./AboutMe.css";
 import  Feature  from "../../components/feature/Feature"
-import Brand from "../../components/brand/Brand"
+
 
 const about = (
   <>

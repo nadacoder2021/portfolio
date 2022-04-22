@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useSwipeable } from "react-swipeable";
-import tribe from "../../assets/tribe.png";
+
 
 import "./Carousel.css";
 
@@ -30,19 +30,19 @@ function Carousel({ children }) {
 
     setActiveIndex(newIndex);
   }
-  //     useEffect(()=>{
-  //     const interval = setInterval(() => {
-  //         if(!paused){
-  //         updateIndex(activeIndex + 1)};
-  //     }, 2000)
+      useEffect(()=>{
+      const interval = setInterval(() => {
+          if(!paused){
+          updateIndex(activeIndex + 1)};
+      }, 2000)
 
-  //     return () => {
-  //         if(interval){
-  //             clearInterval(interval)
-  //         }
+      return () => {
+          if(interval){
+              clearInterval(interval)
+          }
 
-  //     }
-  // })
+      }
+  })
   const handlers = useSwipeable({
     onSwipedLeft: () => updateIndex(activeIndex + 1),
     onSwipedRight: () => updateIndex(activeIndex - 1),
