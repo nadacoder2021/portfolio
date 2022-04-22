@@ -11,7 +11,7 @@ import { Element } from "react-scroll";
 import "./App.css";
 
 function App(props) {
-  const aboutRef = useRef();
+
 
   return (
     <div className="App gradient__bg">
