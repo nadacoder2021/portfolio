@@ -82,7 +82,17 @@ function Navbar() {
               </p>
 
               <p>
-                <a href="#blog">My Blog</a>
+                <Link
+                  activeClass="active"
+                  to="blog"
+                  spy={true}
+                  smooth={true}
+                  offset={20}
+                  duration={500}
+                  onSetActive={handleSetActive}
+                >
+                  Blog
+                </Link>
               </p>
             </>
           </div>
@@ -107,7 +117,17 @@ function Navbar() {
               <div className="gpt3__navbar-menu_container-links">
                 <>
                   <p>
-                    <a href="home">Home</a>
+                    <Link
+                      activeClass="active"
+                      to="home"
+                      spy={true}
+                      smooth={true}
+                      offset={20}
+                      duration={500}
+                      onSetActive={handleSetActive}
+                    >
+                    Home
+                    </Link>
                   </p>
                   <p>
                     <Link
@@ -151,7 +171,17 @@ function Navbar() {
                   </p>
 
                   <p>
-                    <a href="#blog">My Blog</a>
+                    <Link
+                      activeClass="active"
+                      to="blog"
+                      spy={true}
+                      smooth={true}
+                      offset={20}
+                      duration={500}
+                      onSetActive={handleSetActive}
+                    >
+                      Blog
+                    </Link>
                   </p>
                 </>
               </div>

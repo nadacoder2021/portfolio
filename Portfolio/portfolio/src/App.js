@@ -5,7 +5,7 @@ import {
   Education,
   AboutMe,
   Projects,
-  Header,
+  Header,Footer
 } from "./containers/index";
 import { Element } from "react-scroll";
 import "./App.css";
@@ -27,7 +27,10 @@ function App(props) {
         <Projects id="projects" />
       </Element>
       <Element>
-        <ContactMe />
+        <ContactMe id="contact" />
+      </Element>
+      <Element>
+        <Footer />
       </Element>
     </div>
   );
