@@ -1,0 +1,43 @@
+.gpt3__aboutme-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.gpt3__aboutme-feature {
+  display: flex;
+  flex-direction: column;
+}
+
+.gpt3__aboutme-socialIcons {
+  display: flex;
+}
+
+@media screen and (max-width: 414px) {
+  .gpt3__aboutme-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .gpt3__aboutme-feature {
+    display: flex;
+    flex-direction: column;
+  }
+   .gpt3__aboutme-socialIcons{
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 380px) {
+  .gpt3__aboutme-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .gpt3__aboutme-feature {
+    width: 80vw;
+  }
+  .gpt3__aboutme-socialIcons{
+    justify-content: center;
+    align-items: center;
+}
+}
