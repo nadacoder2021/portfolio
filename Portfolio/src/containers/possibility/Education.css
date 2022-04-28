@@ -1,0 +1,29 @@
+.gpt3__aboutme-container{
+   
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.gpt3__aboutme-feature {
+  background: white;
+  display: flex;
+  flex-direction: column;
+
+  min-width: 50vw;
+}
+
+@media screen and (max-width: 412px){
+    .gpt3__aboutme-feature{
+        width:85vw;
+    }
+}
+
+@media screen and (max-width: 360px){
+    
+    .gpt3__aboutme-feature{
+        width:80vw;
+        
+    }
+}

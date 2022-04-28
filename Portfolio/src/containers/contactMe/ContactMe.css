@@ -1,0 +1,39 @@
+.contactForm{
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  margin: 30px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contactForm input, button, textarea{
+  height: 50px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.contactForm textarea{
+  height: 100px;
+}
+
+.contactForm button{
+  flex: 0.6;
+    background: black;
+    width:100%;
+    min-height:50px;
+    border-radius: 5px 0px 0px 5px;
+    font-family: var(--font-family);
+    font-style: none;
+    font-weight:bold;
+    font-size: 20px;
+    line-height: 27px;
+    color:white;
+    outline: none;
+    padding: 0 1rem;
+    cursor: pointer;
+    border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+
+}
